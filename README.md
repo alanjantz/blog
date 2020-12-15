@@ -8,7 +8,7 @@ Um blog e portfolio pessoal utilizando como base o tutorial [Creating a blog wit
 
 ## Instalação
 
-Antes de tudo, é necessário ter [Node](https://nodejs.org/en/download/) instalado (versão 12.13 ou superior), o [yarn](https://classic.yarnpkg.com/en/docs/install/) (versão 1.22 ou superior) e o CLI do [Gatsby](https://www.gatsbyjs.com/docs/quick-start/), para poder executar os comandos a seguir.
+Antes de tudo, é necessário ter [Node](https://nodejs.org/en/download/) instalado (versão 12.13 ou superior), o [yarn](https://classic.yarnpkg.com/en/docs/install/) (versão 1.22 ou superior) e o CLI do [Gatsby](https://www.gatsbyjs.com/docs/quick-start/) (versão 2.15 ou superior), para poder executar os comandos a seguir.
 
 É possível verificar as versões com as seguintes linhas de comando:
 ```
