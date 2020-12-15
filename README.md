@@ -1,6 +1,6 @@
 # alanjantz.dev
 
-Um blog e portfolio pessoal utilizando como base o tutorial "[Creating a blog with React and Gatsby]"(https://www.joaopedro.cc/blog-com-gatsby-e-react-parte-1/), do [jpedroschmitz](https://github.com/jpedroschmitz), e Github Pages.
+Um blog e portfolio pessoal utilizando como base o tutorial [Creating a blog with React and Gatsby](https://www.joaopedro.cc/blog-com-gatsby-e-react-parte-1/), do [jpedroschmitz](https://github.com/jpedroschmitz), e Github Pages.
 
 ## Tecnologias
 - React
