@@ -26,20 +26,20 @@ workbox.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-29436fa31bd8ab8d5756.js"
+    "url": "webpack-runtime-caaba08af7148b5161c2.js"
   },
   {
     "url": "framework-741ade27086b2708e961.js"
   },
   {
-    "url": "app-8f68e108be016bc312c9.js"
+    "url": "app-ba58dd92a7bade5368aa.js"
   },
   {
     "url": "component---node-modules-gatsby-plugin-offline-app-shell-js-0f40d706ebc58d78c1f6.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "6df6f25a8072d8a4698f530986d26de1"
+    "revision": "670addcc2c298131235c51e40702ba3f"
   },
   {
     "url": "page-data/offline-plugin-app-shell-fallback/page-data.json",
@@ -47,14 +47,14 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/app-data.json",
-    "revision": "9278253b0d0f8f81e0c9fbdaedb18921"
+    "revision": "da0e54e413f3ceb5c75c2ec625a74e74"
   },
   {
     "url": "polyfill-f33cc994945b2249d5ee.js"
   },
   {
     "url": "manifest.webmanifest",
-    "revision": "17374fe835e02a7f3f3d9a34b5707709"
+    "revision": "f3c30379b706c3129e4c3d301e57e7f7"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
@@ -73,12 +73,12 @@ const { NavigationRoute } = workbox.routing
 
 const navigationRoute = new NavigationRoute(async ({ event }) => {
   let { pathname } = new URL(event.request.url)
-  pathname = pathname.replace(new RegExp(`^/codestack-brasil`), ``)
+  pathname = pathname.replace(new RegExp(`^`), ``)
 
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/codestack-brasil/app-8f68e108be016bc312c9.js`))) {
+  if (!resources || !(await caches.match(`/app-ba58dd92a7bade5368aa.js`))) {
     return await fetch(event.request)
   }
 
@@ -91,7 +91,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
     }
   }
 
-  const offlineShell = `/codestack-brasil/offline-plugin-app-shell-fallback/index.html`
+  const offlineShell = `/offline-plugin-app-shell-fallback/index.html`
   return await caches.match(offlineShell)
 })
 
