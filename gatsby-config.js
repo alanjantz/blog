@@ -6,7 +6,6 @@ module.exports = {
     description: config.siteDescription,
     siteUrl: config.siteUrl
   },
-  pathPrefix: "/codestack-brasil",
   plugins: [
     "gatsby-plugin-catch-links",
     `gatsby-transformer-remark`,
