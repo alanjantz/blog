@@ -1,7 +1,7 @@
 const config = {
-  siteTitle: 'CodeStack Brasil', 
-  siteDescription: 'O melhor blog de programação do Brasil tem nome, é CodeStack.', 
-  siteTitleShort: 'CodeStack BR', 
+  siteTitle: 'alanjantz.dev',
+  siteDescription: 'Personal blog',
+  siteTitleShort: 'alanjantz.dev',
   siteRss: "/rss.xml",
   siteImage: "https://codestackbrasil.netlify.com/banner.png",
   googleAnalyticsID: "UA-136490553-1",
