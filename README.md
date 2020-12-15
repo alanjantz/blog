@@ -1,32 +1,26 @@
-# CodeStack Brasil
+# alanjantz.dev
 
-A Gatsby blog develop in the series ["Creating a blog with React and Gatsby"]((https://www.joaopedro.cc/blog-com-gatsby-e-react-parte-1/)).
+Um blog e portfolio pessoal utilizando como base o tutorial "[Creating a blog with React and Gatsby]"(https://www.joaopedro.cc/blog-com-gatsby-e-react-parte-1/), do [jpedroschmitz](https://github.com/jpedroschmitz), e Github Pages.
 
-You can see this blog live on [codestackbrasil.netlify.com](https://codestackbrasil.netlify.com/).
+## Tecnologias
+- React
+- Gatsby
 
-## Install and run
+## Instalação
 
-First of all you need to have `node` and `npm` installed on your machine.
+Antes de tudo, é necessário ter [Node](https://nodejs.org/en/download/) instalado (versão 12.13 ou superior), o [yarn](https://classic.yarnpkg.com/en/docs/install/) (versão 1.22 ou superior) e o CLI do [Gatsby](https://www.gatsbyjs.com/docs/quick-start/), para poder executar os comandos a seguir.
 
-Then, you can clone this repository and run the following commands inside the project folder:
+É possível verificar as versões com as seguintes linhas de comando:
+```
+node -v
+yarn --version
+gatsby -v
+```
 
-1. `npm install` or `yarn`;
-2. `gatsby develop`;
-
-To view the project you can open [localhost:8000](http://localhost:8000).
-
-## Roadmap
-
-- Responsive;
-- Add ESLint;
-- Add Husky;
-- Tests and tests;
-- Be creative :)
-
-## Contributing
-
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details the process for submitting pull requests.
+## Iniciando o projeto
+Abra a pasta do projeto dentro do PowerShell, Promp de comando ou pelo Visual Studio Code, execute:
+- `yarn start`: para iniciar o projeto em desenvolvimento
+- `yarn deploy`: para atualizar o Github Pages com as ultimas alterações
 
 ## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+[MIT](https://choosealicense.com/licenses/mit/)
