@@ -2,7 +2,7 @@ import React from 'react';
 import { StaticQuery, graphql, Link } from "gatsby"
 import './Header.css';
 
-export default () => (
+const Header: React.FC = () => (
   <StaticQuery
     query={graphql`
       query HeaderQuery {
@@ -20,3 +20,5 @@ export default () => (
     )}
   />
 )
+
+export default Header;

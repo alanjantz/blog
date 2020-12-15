@@ -2,17 +2,24 @@ import React from "react";
 import { Helmet } from "react-helmet";
 import config from "../../../data/config";
 
-export default ({ title, description, url, article }) => {
+interface SeoModel {
+  title: string;
+  description: string;
+  url: string;
+  article: any;
+}
+
+const Seo: React.FC<SeoModel> = ({ title, description, url, article }) => {
   const seo = {
     title: title ? `${title} | ${config.siteTitle}` : config.siteTitle,
     description: description || config.siteDescription,
     image: config.siteImage,
-    url: url ? `${config.siteUrl}${url}` : '',
-  }
+    url: url ? `${config.siteUrl}${url}` : "",
+  };
 
   return (
     <React.Fragment>
-      <Helmet title={seo.title} >
+      <Helmet title={seo.title}>
         <meta name="description" content={seo.description} />
         <meta name="image" content={seo.image} />
         {seo.url && <meta property="og:url" content={seo.url} />}
@@ -34,5 +41,7 @@ export default ({ title, description, url, article }) => {
         {seo.image && <meta name="twitter:image" content={seo.image} />}
       </Helmet>
     </React.Fragment>
-  )
-}
+  );
+};
+
+export default Seo;

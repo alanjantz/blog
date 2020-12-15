@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { graphql } from "gatsby";
 import Layout from "../components/Layout";
-import SEO from '../components/SEO/SEO';
+import SEO from '../components/SEO';
 import Posts from '../components/Posts';
 
 export default class Tag extends Component {

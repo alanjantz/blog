@@ -1,1 +1,1 @@
-export { default } from './Posts.jsx';
+export { default } from './Posts';

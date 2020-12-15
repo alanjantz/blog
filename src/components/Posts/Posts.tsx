@@ -2,7 +2,11 @@ import React from 'react';
 import { Link } from 'gatsby';
 import './Posts.css';
 
-export default ({ data }) => {
+interface PostsModel {
+  data: any;
+}
+
+const Posts: React.FC<PostsModel> = ({ data }) => {
   const { edges } = data.allMarkdownRemark;
   const posts = (
     edges.map(({ node }) => (
@@ -13,9 +17,11 @@ export default ({ data }) => {
       </div>
     ))
   );
-  return ( 
+  return (
     <div className="posts">
       {posts}
     </div>
   )
-}   
+}
+
+export default Posts;

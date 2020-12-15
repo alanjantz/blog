@@ -7,7 +7,7 @@ import favicon from '../../../static/favicon.png';
 import config from '../../../data/config';
 import './Layout.css';
 
-export default ({ children }) => (
+const Layout: React.FC = ({ children }) => (
   <div>
     <Helmet>
       <meta name="description" content={config.siteDescription} />
@@ -26,4 +26,4 @@ export default ({ children }) => (
   </div>
 );
 
-
+export default Layout;
