@@ -1,2 +1,0 @@
-(this["webpackJsonpalanjantz.github.io"]=this["webpackJsonpalanjantz.github.io"]||[]).push([[0],{10:function(t,n,e){"use strict";e.r(n);var c=e(0),r=e(1),a=e.n(r),i=e(3),o=e.n(i),s=(e(9),function(){var t=Object(r.useCallback)((function(){return"Hello"}),[]);return Object(c.jsx)(c.Fragment,{children:Object(c.jsx)("p",{children:t()})})});o.a.render(Object(c.jsx)(a.a.StrictMode,{children:Object(c.jsx)(s,{})}),document.getElementById("root"))},9:function(t,n,e){}},[[10,1,2]]]);
-//# sourceMappingURL=main.6f1f7c9e.chunk.js.map
