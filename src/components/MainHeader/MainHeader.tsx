@@ -4,7 +4,9 @@ import { Container } from "./styles";
 const MainHeader: React.FC = () => {
   return (
     <>
-      <Container>AAAAA</Container>
+      <Container>
+        <div>Em construção</div>
+      </Container>
     </>
   );
 };
