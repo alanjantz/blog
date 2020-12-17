@@ -49,7 +49,8 @@ jspm_packages
 
 
 # Build Files
-public/
+public/*
+!public/resources
 .cache/
 
 # Gatsby context
