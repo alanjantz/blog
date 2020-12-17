@@ -5,7 +5,7 @@ import Posts from '../components/Posts';
 import SEO from '../components/SEO';
 import 'minireset.css';
 
-export default class Index extends Component {
+export default class Blog extends Component {
   render() {
     const { data } = this.props;
     return (
