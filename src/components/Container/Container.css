@@ -2,8 +2,7 @@
     max-width: 980px;
     display: flex;
     justify-content: space-between;
-    padding: 15px;
-    flex-direction: row;
+    padding: 4em 15px;
+    flex-direction: column;
     margin: 0 auto;
-    margin-top: 4.0rem;
 }
