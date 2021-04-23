@@ -1,6 +1,6 @@
 {
-  "homepage": "http://alanjantz.github.io",
-  "name": "alanjantz.github.io",
+  "homepage": "http://alanjantz.github.io/blog",
+  "name": "blog",
   "description": "A Gatsby blog develop in the series 'Creating a blog with React and Gatsby'",
   "version": "1.0.0",
   "author": "Alan Jantz <alan_f_jantz@hotmail.com>",
