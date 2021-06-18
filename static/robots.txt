@@ -3,4 +3,4 @@ User-agent: *
 Allow: /
 Disallow: /404
 
-sitemap: https://alanjantz.github.io/sitemap.xml
+sitemap: https://alanjantz.github.io/blog/sitemap.xml
