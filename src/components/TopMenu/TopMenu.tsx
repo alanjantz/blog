@@ -18,7 +18,7 @@ const TopMenu: React.FC<TopMenuModel> = ({ scrollHeight, color }) => {
           Sobre
         </ListItem>
         <ListItem color={color} href="/blog">
-          Blog
+          Postagens
         </ListItem>
         <ListItem color={color} href="/contact">
           Contato

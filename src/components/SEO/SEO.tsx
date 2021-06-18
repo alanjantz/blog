@@ -5,8 +5,8 @@ import config from "../../../data/config";
 interface SeoModel {
   title: string;
   description: string;
-  url: string;
-  article: any;
+  url?: string;
+  article?: any;
 }
 
 const Seo: React.FC<SeoModel> = ({ title, description, url, article }) => {
